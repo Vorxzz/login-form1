@@ -72,6 +72,12 @@
     font-size: 15px;
     margin-left: 70px;
     padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.checkbox input[type="checkbox"] {
+    margin: 0;
 }
 .forgot{
     text-align: center;
