@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+.container{
+    background: linear-gradient(45deg, #80D3A9, #50C1A4);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-login{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    background-color: white;
+    width: 550px;
+    height: 650px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.container-login h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 70px;
+    padding: 20px;
+    color: #0A857A;
+}
+.inputbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.inputbox input{
+    width: auto;
+    padding: 20px;
+    margin: 15px;
+    width: 400px;
+    height: 70px;
+    color: black;
+    text-transform: none;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background-color: transparent;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    padding: 1.2rem 2.2rem;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: #0A857A;
+    cursor:pointer;
+    margin-left: 191px;
+}
+.checkbox{
+    font-size: 15px;
+    margin-left: 70px;
+    padding-bottom: 25px;
+}
+.forgot{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.dont{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 16px;
+}
